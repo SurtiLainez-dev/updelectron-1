@@ -29,7 +29,8 @@ const electron = require('electron')
 const path = require('path')
 const app = electron.app
 require('update-electron-app')({
-	repo: 'github-user/repo',
+	// repo: 'SurtiLainez-dev/updelectron-1',
+	updateInterval: '5 minutes',
 	logger: require('electron-log')
 })
 const newWin = () => {
