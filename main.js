@@ -29,7 +29,7 @@ const electron = require('electron')
 const path = require('path')
 const app = electron.app
 require('update-electron-app')({
-	// repo: 'SurtiLainez-dev/updelectron-1',
+	repo: 'SurtiLainez-dev/updelectron-1',
 	updateInterval: '5 minutes',
 	logger: require('electron-log')
 })
